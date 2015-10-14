@@ -1,0 +1,32 @@
+__author__ = "Darcy MacCuspie"
+
+i = 5
+while i > 0:
+    name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
+
+    if name == "Colin":
+        print("Colin you are a blabbering mammal")
+        if age == 15:
+            print("but you tell the truth")
+        else:
+            print("And you lie, you lump")
+
+    elif name == "James" or name == "james":
+        print("James you are a lump")
+        if age == 15:
+            print("but you tell the truth")
+        else:
+            print("And you lie, you lump")
+    else:
+        print("I don't know who you are, " +name)
+        if age <= 12:
+            print("You pre-teen you")
+        if age >= 13 and age <= 18:
+            print("You teenager you")
+        if age >= 19:
+            print("You old man")
+
+
+
+
